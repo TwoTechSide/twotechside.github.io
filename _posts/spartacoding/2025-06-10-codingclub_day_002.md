@@ -91,13 +91,13 @@ group by cuisine_type; --cuisine_type 별로 cuisine_type, price합계를 구할
 ```sql
 -- 1번 문제
 select restaurant_name,
-	   max(price) max_price
+       max(price) max_price
 from food_orders
 group by restaurant_name;
 
 -- 2번 문제
 select pay_type,
-	   max(date) recent_date
+       max(date) recent_date
 from payments
 group by pay_type;
 ```
@@ -132,7 +132,7 @@ order by sum(price) desc;       -- 3. 합계를 내림차순으로 정렬
 ```sql
 -- 1번 문제
 select restaurant_name,
-	   max(price) as "max price"
+       max(price) as "max price"
 from food_orders
 group by restaurant_name
 order by max(price) desc;
@@ -157,8 +157,8 @@ order by name;
 ### 답안
 ```sql
 select cuisine_type,
-	   max(price),
-	   min(price)
+       max(price),
+       min(price)
 from food_orders
 group by cuisine_type 
 order by min(price) desc;
