@@ -161,7 +161,7 @@ main {
   p {
     > a.popup {
       &:not(.normal):not(.left):not(.right) {
-        @include mx.align-center;
+        // @include mx.align-center;
       }
     }
   }
