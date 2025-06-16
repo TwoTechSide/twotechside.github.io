@@ -16,12 +16,12 @@ tags: [Sparta Coding, MySQL, Quest]
       - name: 익명화된 유저들의 이름(varchar255)   
       - email: 이메일(varchar255)   
 
-![img](/assets/img/postimg/postimg003.png)   
+      ![img](/assets/img/postimg/postimg003.png)   
 
 - 문제: 다음과 같은 결과테이블을 만들어봅시다.   
     - name_cnt: “김”씨 성을 가지고 있는 교육생의 수   
 
-![img](/assets/img/postimg/postimg006.png)   
+    ![img](/assets/img/postimg/postimg006.png)   
 
 <br><br>
 
