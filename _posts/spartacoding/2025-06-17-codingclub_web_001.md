@@ -2,7 +2,7 @@
 title: "[웹개발] HTML, CSS, Bootstrap"
 date: 2025-06-17 16:00:00 +0900
 categories: [Sparta Coding, Web Developement]
-tags: [Sparta Coding, Web Developement]
+tags: [Sparta Coding, Web Developement, HTML, CSS, Bootstrap]
 ---
 
 ## 1~5주차 배울 순서

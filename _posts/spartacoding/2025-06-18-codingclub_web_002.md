@@ -2,7 +2,7 @@
 title: "[웹개발] Bootstrap, Javascript"
 date: 2025-06-18 14:00:00 +0900
 categories: [Sparta Coding, Web Developement]
-tags: [Sparta Coding, Web Developement]
+tags: [Sparta Coding, Web Developement, Bootstrap, Javascript, JQuery]
 ---
 
 ## 부트스트랩 활용  
