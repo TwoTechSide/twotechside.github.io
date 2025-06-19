@@ -1,5 +1,5 @@
 ---
-title: "[웹개발] JQuery"
+title: "[웹개발] JQuery, Fetch"
 date: 2025-06-19 14:00:00 +0900
 categories: [Sparta Coding, Web Developement]
 tags: [Sparta Coding, Web Developement, Javascript, JQuery, Fetch]
