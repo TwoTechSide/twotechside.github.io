@@ -14,23 +14,11 @@ tags: [Sparta Coding, Web Developement, Javascript, JQuery, Fetch]
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -111,41 +99,22 @@ tags: [Sparta Coding, Web Developement, Javascript, JQuery, Fetch]
 
     <div class="mypostingbox">
       <div class="form-floating mb-3">
-        <input
-          type="email"
-          class="form-control"
-          id="floatingInput"
-          placeholder="name@example.com"
-        />
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
         <label for="floatingInput">앨범 이미지</label>
       </div>
 
       <div class="form-floating mb-3">
-        <input
-          type="email"
-          class="form-control"
-          id="floatingInput"
-          placeholder="name@example.com"
-        />
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
         <label for="floatingInput">앨범 제목</label>
       </div>
 
       <div class="form-floating mb-3">
-        <input
-          type="email"
-          class="form-control"
-          id="floatingInput"
-          placeholder="name@example.com"
-        />
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
         <label for="floatingInput">앨범 날짜</label>
       </div>
 
       <div class="form-floating">
-        <textarea
-          class="form-control"
-          placeholder="Leave a comment here"
-          id="floatingTextarea"
-        ></textarea>
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
         <label for="floatingTextarea">앨범 내용</label>
       </div>
 
@@ -159,11 +128,7 @@ tags: [Sparta Coding, Web Developement, Javascript, JQuery, Fetch]
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">앨범 제목</h5>
               <p class="card-text">앨범 내용</p>
@@ -175,11 +140,7 @@ tags: [Sparta Coding, Web Developement, Javascript, JQuery, Fetch]
         </div>
         <div class="col">
           <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">앨범 제목</h5>
               <p class="card-text">앨범 내용</p>
@@ -191,11 +152,7 @@ tags: [Sparta Coding, Web Developement, Javascript, JQuery, Fetch]
         </div>
         <div class="col">
           <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">앨범 제목</h5>
               <p class="card-text">앨범 내용</p>
@@ -207,11 +164,7 @@ tags: [Sparta Coding, Web Developement, Javascript, JQuery, Fetch]
         </div>
         <div class="col">
           <div class="card h-100">
-            <img
-              src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80"
-              class="card-img-top"
-              alt="..."
-            />
+            <img src="https://images.unsplash.com/photo-1446768500601-ac47e5ec3719?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1446&q=80" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">앨범 제목</h5>
               <p class="card-text">앨범 내용</p>
