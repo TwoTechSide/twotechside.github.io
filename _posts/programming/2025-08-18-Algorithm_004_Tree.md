@@ -7,7 +7,7 @@ tags: [TIL, Java, Algorithm, Tree]
 
 ## 1. 트리 (Tree)   
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/1280px-Binary_tree.svg.png" style="background: white"/>
+<img alt="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/1280px-Binary_tree.svg.png" style="background: white"/>
   
 트리 구조는 **노드(Node)**로 이루어진 **자료 구조**입니다  
 이름처럼 구조를 그려보고 거꾸로 바라보면 나무처럼 생긴 것이 특징이기도 하죠  
