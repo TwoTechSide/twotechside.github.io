@@ -1,8 +1,8 @@
 ---
-title: "[Algorithm/Java] 깊이 우선 탐색 (DFS)"
+title: "[Algorithm/Java] DFS, BFS"
 date: 2025-09-19 14:00:00 +0900
 categories: [Programming, Algorithm]
-tags: [TIL, Java, Algorithm, Tree, DFS, Graph]
+tags: [TIL, Java, Algorithm, Tree, DFS, BFS, Graph]
 ---
 
 ## 1. 깊이 우선 탐색 (DFS)   
@@ -11,7 +11,7 @@ tags: [TIL, Java, Algorithm, Tree, DFS, Graph]
   
 > **DFS : Depth-First Search**  
 
-그래프 이론 중에서 DFS라는 것에 대해 배워볼 것입니다  
+그래프 이론 중에서 DFS와 BFS라는 것에 대해 배워볼 것입니다  
   
 이전의 트리 구조에 이어 이번에도 우선 순위가 적혀있는 **노드(Node)**가 등장합니다  
 만약 위 이미지처럼 노드가 그려진 그래프가 있을 때, 1번 노드부터 탐색한다고 하면 순서는 어떻게 나오게 될까요  
@@ -24,7 +24,7 @@ tags: [TIL, Java, Algorithm, Tree, DFS, Graph]
 <br>
 - - -
     
-## 2. 재귀로 푸는 방법
+### 1-1. 재귀로 푸는 방법
 
 ```java
 // 그래프 예시
@@ -72,7 +72,7 @@ public class Main {
 <br>
 - - -
 
-## 3. Stack으로 푸는 방법
+### 1-2. Stack으로 푸는 방법
 
 재귀와 비슷하게 `visitied`를 활용해서 풀면 됩니다  
 
@@ -150,4 +150,51 @@ public class Main {
         }
     }
 }
+```
+
+<br>
+
+## 2. 너비 우선 탐색 (BFS)  
+  
+> **BFS : Breadth-First Search**  
+
+DFS는 하나의 노드를 길게 연결하며 탐색했었죠, BFS는 살짝 다르지만 내용은 거의 비슷합니다  
+시작 노드에서 **가장 가까운 노드를 먼저 모두 방문하며 탐색하는 알고리즘**이라 보면 될 것 같습니다  
+  
+Stack을 이용한 DFS를 이해했다면... 거의 Queue로만 바꿔주면 BFS가 됩니다, 매우 간단하지 않나요  
+  
+```java
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Main {
+
+    static boolean[] visited = new boolean[9];
+    static int[][] graph = { {}, {2, 4, 5}, {1, 5}, {4, 6}, {1, 3, 6}, {1, 7}, {3, 4, 8}, {5}, {6} };
+
+    static Queue<Integer> queue = new LinkedList<>();
+
+    public static void main(String[] args) {
+
+        // 첫 노드를 add 하고 방문 여부 true
+        queue.add(1);
+
+        while(!queue.isEmpty()) {
+            int nodeIndex = queue.poll();
+
+            if (!visited[nodeIndex]) {
+                visited[nodeIndex] = true;
+                System.out.print(nodeIndex + " -> ");
+
+                for (int index: graph[nodeIndex]) {
+                    if (!visited[index]) {
+                        queue.add(index);
+                    }
+                }
+            }
+        }
+    }
+}
+
+//출력 결과 : "1 -> 2 -> 4 -> 5 -> 3 -> 6 -> 7 -> 8 -> "
 ```
